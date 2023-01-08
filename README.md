@@ -8,7 +8,7 @@ Open the file `src\config\config.json`
 
 Set `USE_SERVER` to `true` and set `SERVER_URL` to the server url along with the route to the api.
 
-The API expects a json response `{ move: <chess move eg: e5> }`
+The API will receive a json of the current board position `{ game: <chess game in pgn format eg:'1. e4 c5 2. f4 Qb6 3. Nc3'}` expects a json response `{ move: <chess move eg: e5> }`
 
 <b>To play random moves :</b>
 
